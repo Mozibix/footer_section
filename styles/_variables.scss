@@ -1,0 +1,66 @@
+/* MIXINS */
+@mixin flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin hover_animate {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* CONTAINER */
+.main_container {
+  padding: 0.5rem;
+
+  @media screen and (min-width: 576px) {
+    padding: 1.5rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 1rem 4rem;
+  }
+  @media screen and (min-width: 1400px) {
+    padding: 1rem 6rem;
+  }
+}
+
+.sub_container {
+  @media screen and (min-width: 576px) {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
+
+/* HOVER ANIMATION */
+.hover_animation {
+  @include hover_animate();
+
+  &.small {
+    @media screen and (max-width: 768px) {
+      transform: scale(0.9);
+
+      &:hover {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+/* BORDER */
+.border_test {
+  outline: 2px solid red;
+}
