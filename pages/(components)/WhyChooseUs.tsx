@@ -1,3 +1,5 @@
-export const WhyChooseUs = () => {
+const WhyChooseUs = () => {
   return <div>WhyChooseUs</div>;
 };
+
+export default WhyChooseUs;
