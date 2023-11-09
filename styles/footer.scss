@@ -336,16 +336,28 @@
 
   &_bottom {
     &_inner {
-      padding: 6rem 8rem;
+      padding: 6rem 1.5rem 1rem;
       @include flex_center();
-      justify-content: flex-start;
-      align-items: flex-start;
       gap: 5rem;
+      width: 100%;
+      margin: 0 auto;
+      flex-direction: column-reverse;
+      max-width: 45rem;
+
+      @media screen and (min-width: 992px) {
+        padding: 6rem 1rem 3rem;
+        max-width: 95%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
     }
 
     &_left {
       position: relative;
       inset: -0.4rem 0;
+      min-width: 20rem;
+
       p {
         @include flex_center();
         gap: 0.5rem;
