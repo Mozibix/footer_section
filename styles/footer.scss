@@ -19,7 +19,7 @@
     transform: translate(-50%, 50%);
     border: 1px solid $footer_top;
     overflow: hidden;
-    width: 100%;
+    width: 95%;
     max-width: 80rem;
     height: 30rem;
     margin: 0 auto;
@@ -28,8 +28,12 @@
       rgba(26, 178, 243, 1),
       rgba(20, 98, 222, 1)
     );
-
     border-radius: 2.5rem;
+
+    @media screen and (min-width: 992px) {
+      display: block;
+    }
+
     &_inner {
       position: absolute;
       transform: translate(-50%, 50%);
@@ -99,16 +103,18 @@
   }
 
   &_middle {
-    width: 100%;
+    @include flex_center();
+    @media screen and (min-width: 992px) {
+      display: block;
+    }
+
     &_inner {
       display: grid;
       justify-content: flex-start;
       align-items: flex-start;
       height: 100%;
-      // overflow: hidden;
 
       @media screen and (min-width: 992px) {
-        // height: 40.9rem;
         height: 50rem;
         @include flex_center();
         border-bottom: 1px solid $light_bg;
@@ -128,12 +134,13 @@
         padding: 2rem 0.5rem;
 
         @media screen and (min-width: 992px) {
-          padding: 6rem 8rem;
+          flex-wrap: nowrap;
+          padding: 6rem 2rem;
           justify-content: space-between;
-          border: 0.5px solid $light_bg;
-          border-left: none;
-          border-top: none;
-          gap: 7rem;
+        }
+
+        @media screen and (min-width: 1400px) {
+          padding: 6rem;
         }
 
         p {
@@ -145,10 +152,6 @@
       }
 
       &_list {
-        @media screen and (min-width: 992px) {
-          border-right: 0.5px solid $light_bg;
-        }
-
         &_inner {
           @include flex_center();
           justify-content: space-between;
@@ -157,9 +160,16 @@
           flex-wrap: wrap;
           padding: 2rem 1rem;
           gap: 3rem;
+          width: 100%;
           @media screen and (min-width: 992px) {
-            padding: 6rem 8rem;
             gap: 1rem;
+            max-width: 40rem;
+            margin: 0 auto;
+          }
+
+          @media screen and (min-width: 1300px) {
+            gap: 2rem;
+            max-width: 50rem;
           }
 
           div {
@@ -198,14 +208,15 @@
       height: 100%;
       width: 100%;
       @media screen and (min-width: 992px) {
-        height: 99.8%;
+        border-left: 0.5px solid $light_bg;
       }
 
       &_inner {
         display: grid;
         gap: 2rem;
         padding: 1rem;
-        @media screen and (min-width: 992px) {
+
+        @media screen and (min-width: 1200px) {
           padding: 1rem 5rem;
         }
       }
@@ -231,7 +242,11 @@
           font-size: 1.2rem;
 
           @media screen and (min-width: 992px) {
-            font-size: 2.5rem;
+            font-size: 1.9rem;
+          }
+
+          @media screen and (min-width: 1400px) {
+            font-size: 2.3rem;
           }
         }
       }
@@ -243,6 +258,7 @@
           background: $white;
           padding: 0.1rem;
           width: 100%;
+          max-width: 30rem;
           height: 3.5rem;
           border-radius: 100vmax;
           overflow: hidden;
@@ -250,7 +266,6 @@
           @include flex_center();
 
           @media screen and (min-width: 992px) {
-            width: 60%;
             height: 3.5rem;
           }
 
@@ -258,7 +273,7 @@
             width: 100%;
             height: 100%;
             padding: 1rem;
-            font-size: 1.3rem;
+            font-size: 1rem;
             font-weight: 500;
 
             &::placeholder {
