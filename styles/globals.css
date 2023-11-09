@@ -32,3 +32,8 @@ h6,
   font-style: normal;
   font-weight: 900;
 }
+
+input {
+  border: none;
+  outline: none;
+}
