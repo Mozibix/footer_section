@@ -221,7 +221,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer_bottom">
+        {/* <div className="footer_bottom">
           <div className="footer_bottom_inner">
             <div className="footer_bottom_left">
               <p>
@@ -250,7 +250,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
