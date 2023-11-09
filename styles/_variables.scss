@@ -64,3 +64,11 @@
 .border_test {
   outline: 2px solid red;
 }
+
+/* LINE */
+.line {
+  border: 2px solid $white;
+  width: 100%;
+  max-width: 1.8rem;
+  // margin: 0 auto;
+}
