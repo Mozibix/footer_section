@@ -33,7 +33,8 @@ h6,
   font-weight: 900;
 }
 
-input {
+input,
+button {
   border: none;
   outline: none;
 }
