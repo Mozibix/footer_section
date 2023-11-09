@@ -21,6 +21,23 @@ font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
 
+/* CUSTOM SCROLLBAR  */
+/* For WebKit browsers */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #1462de;
+  height: 1vh;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
 h1,
 h2,
 h3,
