@@ -16,12 +16,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer_inner">
         <div className="footer_top">
-          <div className="footer_top_inner sub_container">
+          <div className="footer_top_inner">
             <div className="footer_top_right">
               <Image
                 src={phone_icon1}
-                width={100}
-                height={100}
+                className="h-[22rem]"
+                width={500}
+                height={500}
                 alt="phone_icon"
               />
             </div>
@@ -40,27 +41,27 @@ const Footer = () => {
                   <button>
                     <Image
                       src={apple_icon}
-                      width={30}
-                      height={30}
+                      width={65}
+                      height={65}
                       alt="apple-icon"
                     />
-                    <div>
-                      available on <br />
+                    <p>
+                      available on
                       <span>app store</span>
-                    </div>
+                    </p>
                   </button>
                   {/*  */}
                   <button>
                     <Image
                       src={playstore_icon}
-                      width={30}
-                      height={30}
+                      width={65}
+                      height={65}
                       alt="playstore-icon"
                     />
-                    <div>
-                      available on <br />
+                    <p>
+                      available on
                       <span>play store</span>
-                    </div>
+                    </p>
                   </button>
                 </div>
               </div>
@@ -69,8 +70,9 @@ const Footer = () => {
             <div className="footer_top_right">
               <Image
                 src={phone_icon2}
-                width={100}
-                height={100}
+                className="h-[22rem]"
+                width={500}
+                height={500}
                 alt="phone-icon"
               />
             </div>
