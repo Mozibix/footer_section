@@ -1,5 +1,9 @@
 import {
+  apple_icon,
   logo_icon,
+  phone_icon1,
+  phone_icon2,
+  playstore_icon,
   social_icon1,
   social_icon2,
   social_icon3,
@@ -11,7 +15,67 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_inner">
-        <div className="footer_top"></div>
+        <div className="footer_top">
+          <div className="footer_top_inner sub_container">
+            <div className="footer_top_right">
+              <Image
+                src={phone_icon1}
+                width={100}
+                height={100}
+                alt="phone_icon"
+              />
+            </div>
+
+            <div className="footer_top_middle">
+              <div className="footer_top_middle_inner">
+                <p>
+                  optimize your energy use and save voltWise! our app empowers
+                  you to monitor real-time energy consumption set goals, and
+                  make green choices
+                </p>
+
+                <span>download voltWise today</span>
+
+                <div className="download_btns">
+                  <button>
+                    <Image
+                      src={apple_icon}
+                      width={30}
+                      height={30}
+                      alt="apple-icon"
+                    />
+                    <div>
+                      available on <br />
+                      <span>app store</span>
+                    </div>
+                  </button>
+                  {/*  */}
+                  <button>
+                    <Image
+                      src={playstore_icon}
+                      width={30}
+                      height={30}
+                      alt="playstore-icon"
+                    />
+                    <div>
+                      available on <br />
+                      <span>play store</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="footer_top_right">
+              <Image
+                src={phone_icon2}
+                width={100}
+                height={100}
+                alt="phone-icon"
+              />
+            </div>
+          </div>
+        </div>
         <div className="footer_middle">
           <div className="footer_middle_inner">
             <div className="footer_middle_left">
