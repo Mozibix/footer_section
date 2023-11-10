@@ -17,7 +17,12 @@ const Footer = () => {
       <div className="footer_inner">
         <div className="footer_top">
           <div className="footer_top_inner">
-            <div className="footer_top_right">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              className="footer_top_right"
+            >
               <Image
                 src={phone_icon1}
                 className="h-[22rem]"
@@ -27,18 +32,37 @@ const Footer = () => {
               />
             </div>
 
-            <div className="footer_top_middle">
+            <div
+              data-aos="flip-right"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              className="footer_top_middle"
+            >
               <div className="footer_top_middle_inner">
-                <p>
+                <p
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="500"
+                >
                   optimize your energy use and save voltWise! our app empowers
                   you to monitor real-time energy consumption set goals, and
                   make green choices
                 </p>
 
-                <span>download voltWise today</span>
+                <span
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  download voltWise today
+                </span>
 
                 <div className="download_btns">
-                  <button>
+                  <button
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="500"
+                  >
                     <Image
                       src={apple_icon}
                       width={65}
@@ -51,7 +75,11 @@ const Footer = () => {
                     </p>
                   </button>
                   {/*  */}
-                  <button>
+                  <button
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                  >
                     <Image
                       src={playstore_icon}
                       width={65}
@@ -67,7 +95,12 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footer_top_right">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              className="footer_top_right"
+            >
               <Image
                 src={phone_icon2}
                 className="h-[22rem]"
@@ -78,11 +111,21 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer_middle">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          className="footer_middle"
+        >
           <div className="footer_middle_inner">
             <div className="footer_middle_left">
               <div className="footer_middle_left_inner">
-                <div className="footer_middle_left_header">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="500"
+                  className="footer_middle_left_header"
+                >
                   <Image
                     src={logo_icon}
                     width={250}
@@ -99,56 +142,162 @@ const Footer = () => {
                 <div className="footer_middle_left_list">
                   <div className="footer_middle_left_list_inner">
                     {/*  */}
-                    <div>
-                      <h4>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="500"
+                    >
+                      <h4
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="500"
+                      >
                         company
                         <span className="line"></span>
                       </h4>
 
                       <ul>
-                        <li>about us</li>
-                        <li>faqs</li>
-                        <li>contact us</li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="500"
+                        >
+                          about us
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="500"
+                        >
+                          faqs
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="500"
+                        >
+                          contact us
+                        </li>
                       </ul>
                     </div>
                     {/*  */}
-                    <div>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="1000"
+                    >
                       <h4>
                         socials
                         <span className="line"></span>
                       </h4>
 
                       <ul>
-                        <li>facebook</li>
-                        <li>twitter</li>
-                        <li>linkedin</li>
-                        <li>instagram</li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1000"
+                        >
+                          facebook
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1000"
+                        >
+                          twitter
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1000"
+                        >
+                          linkedin
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1000"
+                        >
+                          instagram
+                        </li>
                       </ul>
                     </div>
                     {/*  */}
-                    <div>
-                      <h4>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="1500"
+                    >
+                      <h4
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1500"
+                      >
                         legal
                         <span className="line"></span>
                       </h4>
 
                       <ul>
-                        <li>terms</li>
-                        <li>privacy</li>
-                        <li>cookies</li>
-                        <li>licenses</li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1500"
+                        >
+                          terms
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1500"
+                        >
+                          privacy
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1500"
+                        >
+                          cookies
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="1500"
+                        >
+                          licenses
+                        </li>
                       </ul>
                     </div>
                     {/*  */}
-                    <div>
-                      <h4>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="2000"
+                    >
+                      <h4
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="2000"
+                      >
                         help
                         <span className="line"></span>
                       </h4>
 
                       <ul>
-                        <li>terms of use</li>
-                        <li>faqs</li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="2000"
+                        >
+                          terms of use
+                        </li>
+                        <li
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          data-aos-duration="2000"
+                        >
+                          faqs
+                        </li>
                       </ul>
                     </div>
                     {/*  */}
@@ -159,8 +308,19 @@ const Footer = () => {
 
             <div className="footer_middle_right">
               <div className="footer_middle_right_inner">
-                <div className="footer_middle_right_top">
-                  <p>Stay updated with</p>
+                <div
+                  className="footer_middle_right_top"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="500"
+                >
+                  <p
+                    data-aos="flip-left"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                  >
+                    Stay updated with
+                  </p>
 
                   <span>
                     VoltWise by signing up for <br /> our newsletter
@@ -168,22 +328,45 @@ const Footer = () => {
                 </div>
 
                 <div className="footer_middle_right_input">
-                  <div className="footer_middle_right_input_inner">
+                  <div
+                    data-aos="flip-right"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    className="footer_middle_right_input_inner"
+                  >
                     <input
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="1000"
                       className="special_font"
                       type="email"
                       placeholder="example@gmail.com"
                     />
 
-                    <button>subscribe</button>
+                    <button
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="1000"
+                    >
+                      subscribe
+                    </button>
                   </div>
                 </div>
 
-                <div className="footer_middle_right_bottom">
+                <div
+                  data-aos="flip-right"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  className="footer_middle_right_bottom"
+                >
                   <span>connect with us</span>
 
                   <ul>
-                    <li>
+                    <li
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      data-aos-duration="1000"
+                    >
                       <Image
                         src={social_icon1}
                         width={50}
@@ -191,7 +374,11 @@ const Footer = () => {
                         alt="social-icon"
                       />
                     </li>
-                    <li>
+                    <li
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      data-aos-duration="1500"
+                    >
                       <Image
                         src={social_icon2}
                         width={50}
@@ -199,7 +386,11 @@ const Footer = () => {
                         alt="social-icon"
                       />
                     </li>
-                    <li>
+                    <li
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      data-aos-duration="2000"
+                    >
                       <Image
                         src={social_icon3}
                         width={50}
@@ -207,7 +398,11 @@ const Footer = () => {
                         alt="social-icon"
                       />
                     </li>
-                    <li>
+                    <li
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      data-aos-duration="2500"
+                    >
                       <Image
                         src={social_icon4}
                         width={50}
