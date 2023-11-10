@@ -1,10 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import Header from "./(components)/Header";
-import Hero from "./(components)/Hero";
 import Footer from "./(components)/Footer";
-import WhyChooseUs from "./(components)/WhyChooseUs";
 import "aos/dist/aos.css";
 import Head from "next/head";
 
@@ -34,22 +31,8 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Prop Firm || Homepage</title>
+        <title>Footer Template</title>
       </Head>
-      {/* HEADER SECTION */}
-      <Header />
-
-      {/* MAIN SECTION */}
-
-      {/* HERO SECTION */}
-      <section className="hero_sec">
-        <Hero />
-      </section>
-
-      {/* WHY CHOOSE US SECTION */}
-      <section className="why_choose_us_sec">
-        <WhyChooseUs />
-      </section>
 
       {/* FOOTER */}
       <Footer />
