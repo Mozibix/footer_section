@@ -6,6 +6,7 @@ import Hero from "./(components)/Hero";
 import Footer from "./(components)/Footer";
 import WhyChooseUs from "./(components)/WhyChooseUs";
 import "aos/dist/aos.css";
+import Head from "next/head";
 
 const HomePage = () => {
   useEffect(() => {
@@ -32,23 +33,26 @@ const HomePage = () => {
 
   return (
     <>
-      <div>
-        {/* HEADER SECTION */}
-        {/* <Header /> */}
+      <Head>
+        <title>Prop Firm || Homepage</title>
+      </Head>
+      {/* HEADER SECTION */}
+      <Header />
 
-        {/* MAIN SECTION */}
+      {/* MAIN SECTION */}
 
-        {/* HERO SECTION */}
-        <section className="hero_sec">{/* <Hero /> */}</section>
+      {/* HERO SECTION */}
+      <section className="hero_sec">
+        <Hero />
+      </section>
 
-        {/* WHY CHOOSE US SECTION */}
-        <section className="why_choose_us_sec">{/* <WhyChooseUs /> */}</section>
+      {/* WHY CHOOSE US SECTION */}
+      <section className="why_choose_us_sec">
+        <WhyChooseUs />
+      </section>
 
-        {/* FOOTER */}
-        <>
-          <Footer />
-        </>
-      </div>
+      {/* FOOTER */}
+      <Footer />
     </>
   );
 };
